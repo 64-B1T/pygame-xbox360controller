@@ -101,7 +101,7 @@ while running:
 
         for i in range( buttons ):
             button = joystick.get_button( i )
-            textPrint.print(screen, "Button {:>2} value: {}".format(i,button) )
+            textPrint.print(screen, "Button {:>2} value: {}".format(i, button) )
         textPrint.unindent()
 
         # Hat switch. All or nothing for direction, not like joysticks.

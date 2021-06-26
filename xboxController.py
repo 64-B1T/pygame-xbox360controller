@@ -95,7 +95,7 @@ class KeyboardController:
         return(int(self.keys[pygame.K_1]), int(self.keys[pygame.K_2]))
 
     def get_pad(self):
-        return int(self.keys[pygame.K_7]),int(self.keys[pygame.K_8]),int(self.keys[pygame.K_9]),int(self.keys[pygame.K_0])
+        return int(self.keys[pygame.K_7]), int(self.keys[pygame.K_8]), int(self.keys[pygame.K_9]), int(self.keys[pygame.K_0])
 
 class Controller:
 
